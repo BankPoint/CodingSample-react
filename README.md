@@ -43,12 +43,7 @@ This project will require that you have the following installed locally
 * SQL Server Express (or better)
 * git 
 
-The starting database schema can be found in the `build` directory. To create the databse for your work you
-can run the following from a windows command prompt
-
-```angular2html
-sqlcmd.exe -E -i .\build\sql-migrations.sql
-```
+The starting database schema can be found in the `build` directory. The sql file at `.\build\sql-migrations.sql` can be used to create the database with the expected starting schema. 
 
 ## Standards and practices
 
