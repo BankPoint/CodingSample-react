@@ -36,7 +36,7 @@ namespace CodingSample.Model
         public IList<Loan> GetLoans()
         {
             return _con.Query<Loan>(@$"
-SELECT l.LoanNumber, l.Principal, l.MaturityDate, CustomerName = c.Name, BranchDescription = b.BranchName
+SELECT l.LoanNumber, l.Principal, l.MaturityDate, CustomerName = c.Name, BranchDescription = b.BranchDescription
 FROM Loans l
 LEFT JOIN Customers c ON l.CustomerId = c.Id
 LEFT JOIN Branches b ON l.BranchId = b.Id

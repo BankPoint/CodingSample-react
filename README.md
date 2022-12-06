@@ -39,7 +39,7 @@ Good luck!
 
 This project will require that you have the following installed locally
  
-* .NET 5 SDK
+* .NET 6 SDK
 * SQL Server Express (or better)
 * git 
 
@@ -55,11 +55,8 @@ sqlcmd.exe -E -i .\build\sql-migrations.sql
 The development team has standardized on the following third party libraries:
 
 * [Dapper](https://github.com/DapperLib/Dapper) - Lightweight ORM for SQL operations
-* [Knockout.js](https://knockoutjs.com/) - JavaScript MVVM library
-* [Bootstrap](https://getbootstrap.com/) - CSS styling library
+* [React](https://reactjs.org/) - Javascript front end framework
 
-You're not expected to have familiarity with these libraries. The documentation links are provided for your reference,
-and examples of library usage can be found in the starting sample code.
 
 Oh, almost forgot to mention this, but the development lead is very particular about dependencies. She doesn't want you
 to add any new library dependencies for JavaScript or C#. 
