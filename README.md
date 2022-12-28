@@ -109,7 +109,7 @@ Update the loan listing grid to format the currency and date columns as follows
 ```angular2html
 * Principal should show as USD currency (e.g. $123,456.78)
 * Maturity Date should show in US short date format (e.g. 12/31/2021)
-* All formatting changes should be applied client side using knockout formatters. Don't modify the LoanDto class for this ticket
+* All formatting changes should be applied client side using react. Don't modify the LoanDto class for this ticket
 ```
 
 
